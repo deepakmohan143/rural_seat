@@ -1,0 +1,222 @@
+	
+/* footer */
+/* { font-family: 'Open Sans', sans-serif; font-size: 15px; font-weight: 400; color: #888; line-height: 30px; text-align: center; background-color: #FCF6F5FF;} */
+
+
+/* strong { font-weight: 600; } */
+
+/* a { color: #856dc0; border-bottom: 1px dashed #856dc0; text-decoration: none; transition: all .3s; } */
+/* a:hover, a:focus { color: #856dc0; border: 0; text-decoration: none; } */
+
+/* h1, h2 { margin-top: 10px; font-size: 38px; font-weight: 300; color: #555; line-height: 50px; font-style: italic; } */
+/* h3 { font-size: 22px; font-weight: 300; color: #555; line-height: 30px; font-style: italic; } */
+
+/* img { max-width: 100%; } */
+
+/* .medium-paragraph { font-size: 17px; line-height: 32px; } */
+
+/* ::-moz-selection { background: #7762ac; color: #fff; text-shadow: none; } */
+/* ::selection { background: #7762ac; color: #fff; text-shadow: none; } */
+
+
+**** Footer ****
+
+/* .footer-top { padding: 60px 0 40px 0; text-align: left; } */
+/* .footer-top h3 { padding-bottom: 10px; } */
+
+/* .footer-contact p { word-wrap: break-word; } */
+/* .footer-contact i { padding-right: 10px; font-size: 18px; color: #ddd; } */
+/* .footer-contact p a { border-bottom: 1px dashed #ccc; } */
+/* .footer-contact p a:hover, .footer-contact p a:focus { border-bottom: 1px dashed #856dc0; } */
+
+/* .footer-links a { color: #888; border: 0; } */
+/* .footer-links a:hover, .footer-links a:focus { color: #555; margin-left: 3px; } */
+
+/* . */
+/* .footer-bottom { padding: 15px 0 17px 0; background: #444; text-align: left; color: #aaa; } */
+
+/* .footer-social { padding-top: 3px; text-align: right; } */
+/* .footer-social a { margin-left: 20px; color: #777; border: 0; } */
+/* .footer-social a:hover, .footer-social a:focus { color: #79a05f; border: 0; } */
+/* .footer-social i { font-size: 24px; vertical-align: middle; } */
+
+/* .footer-copyright { padding-top: 5px; } */
+/* .footer-copyright a { color: #fff; border: 0; } */
+/* .footer-copyright a:hover, .footer-copyright a:focus { color: #aaa; border: 0; } */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montez&family=Montserrat+Alternates:wght@300;400;500;600;700;800;900&family=Montserrat:wght@500;600;700;800&display=swap');
+
+
+
+
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+#logo{
+    display: block;
+    text-align: center;
+    padding-left:0px;
+    margin:auto;
+    font-family: 'Montez', cursive;
+    font-size: 40px;
+    color:white;
+    
+}
+
+#nav-container{
+    display: none;
+}
+
+
+#homescreen1
+{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#147cd8+0,0a3e6c+100 */
+background: #147cd8; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #147cd8 0%, #0a3e6c 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #147cd8 0%,#0a3e6c 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #147cd8 0%,#0a3e6c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#147cd8', endColorstr='#0a3e6c',GradientType=1 );
+background-attachment: scroll;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+#homescreen1 .homescreen1-content{
+    display:flex;
+    flex-direction: column;
+    margin:180px auto 0 auto;
+    height: 80%;
+    width: 80%;
+}
+
+.heading{
+    margin-bottom: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    color:white;
+}
+.description{
+    text-align:center;
+    margin-top:20px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color:white;
+}
+.take-a-tour{
+    max-width: fit-content;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:100px;
+    margin-top:30px;
+    padding:10px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight:800;
+    font-size:20px;
+    text-decoration: none;
+    color:#177CD4;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media screen and (min-device-width:600px){
+    *{
+        margin:0px;
+        padding: 0px;
+        box-sizing: border-box;
+        
+    }
+
+    #header{
+        padding:1vw;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #logo{
+        margin:0px;
+        padding:0.2vw;
+        font-family: 'Montez', cursive;
+        font-size: 2.5vw;
+        color:white;   
+    }
+
+    #nav-container{
+        display: flex;
+        flex-direction: row;
+ 
+    }
+
+    .nav-but{
+        list-style-type: none;
+        margin-left:3vw;
+    }
+
+    .button{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 1.2vw;
+        text-decoration: none;
+        color:#177CD4;
+        background-color: white;
+        border-radius: 37px;
+        padding:1vw;
+    }
+
+    #homescreen1{
+        background: url("images/bg2.jpg");
+        background-attachment: scroll;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+    #homescreen1 .homescreen1-content{
+        display:flex;
+        flex-direction: column;
+        margin: 10vw;
+        height: 40vw;
+        width: 37vw;
+    }
+
+    .heading{
+        font-family: 'Montserrat Alternates', sans-serif;
+        text-align: center;
+        font-weight: 600;
+        font-size: 3.7vw;
+        color:white;
+    }
+    .description{
+        text-align:center;
+        margin-top:1.5vw;
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-weight: 300;
+        font-size: 1.5vw;
+        color:white;
+    }
+    .take-a-tour{
+        max-width: fit-content;
+        margin-left:12vw;;
+        margin-top:5vw;
+        padding:1.5vw;
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-weight:800;
+        font-size:1.2vw;
+        text-decoration: none;
+        color:#177CD4;
+        background-color: white;
+        border-radius: 0.5vw;
+    }
+    
+}
